@@ -8,6 +8,8 @@
     <color name="colorLine">#dfdfdf</color>
     <color name="colorFontGreen">#388e3c</color>
     <color name="colorFontRed">#F96650</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 
     <color name="shimmer_color_for_image">#55efefef</color>
 </resources>

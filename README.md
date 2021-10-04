@@ -1,21 +1,14 @@
-# Skeleton(Deprecated)
+# Skeleton
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)  
-The library provides an easy way to show skeleton loading view like Facebook and Alipay. 
-It now uses a memory optimised version of shimmer animation so it is even faster and you can animate bigger layouts as well.
+
+This project is based on ethanhua's project (https://github.com/ethanhua/Skeleton)
 
 # Preview
-
 
 ![img](screenshots/01.gif)
 ![img](screenshots/02.gif)
 ![img](screenshots/03.gif)
 ![img](screenshots/04.gif)
-
-# Demo Apk
-
-you can scan the qrcode for download demo apk
-
-![](screenshots/qrcode.png)
 
 # Feature
 
@@ -30,7 +23,6 @@ In your build.gradle:
 ```
 dependencies {
        implementation 'com.ethanhua:skeleton:1.1.2'
-       implementation 'io.supercharge:shimmerlayout:2.1.0'
     }
 ```
     
@@ -74,5 +66,6 @@ dependencies {
         
  # Thanks
  
- https://github.com/team-supercharge/ShimmerLayout
+ https://github.com/ethanhua/Skeleton
+ https://github.com/facebook/shimmer-android
  
