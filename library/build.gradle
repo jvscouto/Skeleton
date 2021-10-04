@@ -47,9 +47,9 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
-                artifact(sourcesJar)
+            maven(MavenPublication) {
+                from components.release
+
                 groupId = "com.github.jvscouto"
                 artifactId = "skeleton"
                 version = "1.0.0"
